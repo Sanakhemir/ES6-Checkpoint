@@ -138,6 +138,16 @@ function getCount(chaine) {
       //Simplement, étant donné une chaîne de mots, renvoie la longueur du ou des mots les plus courts.
       //La chaîne ne sera jamais vide et vous n'avez pas besoin de tenir compte des différents types de données.
 
+      function findShort(s){
+  
+       const words = s.split(" ");
+       
+     
+       return Math.min(...s.split(" ").map(word => word.length));
+       
+       
+     }
+
 
 	// Complementary DNA
       //Dans les chaînes d'ADN, les symboles « A » et « T » sont complémentaires l'un de l'autre, 
@@ -295,66 +305,81 @@ function getCount(chaine) {
 // Arrays	
 
     // Counting sheep...	
-       //
-       //
+       //Considérons un tableau/une liste de moutons dans lesquels certains moutons peuvent manquer à leur place. 
+       //Nous avons besoin d'une fonction qui compte le nombre de moutons présents dans le tableau (vrai signifie présent).
+       //Astuce : n'oubliez pas de vérifier les valeurs erronées telles que null/undefined
 
 	// Ones and Zeros	
-       //
-       //
+       //Étant donné un tableau de uns et de zéros, convertissez la valeur binaire équivalente en un entier.
+       //Cependant, les tableaux peuvent avoir des longueurs variables, pas seulement limitées à 4.
 
 	// A Needle in the Haystack	
-       //
-       //
+       //Pouvez-vous trouver l’aiguille dans la botte de foin ?
+       //Écrivez une fonction findNeedle()qui prend un arrayplein de déchets mais qui en contient un"needle"
+       //Une fois que votre fonction a trouvé l'aiguille, elle doit renvoyer un message (sous forme de chaîne) indiquant :
+      //"found the needle at position "en plus indexil a trouvé l'aiguille, donc :
 
 	// Remove the minimum	
-       //
-       //
+       //Étant donné un tableau d'entiers, supprimez la plus petite valeur. Ne modifiez pas le tableau/la liste d'origine.
+       //S'il existe plusieurs éléments avec la même valeur, supprimez celui qui a l'index le plus bas.
+       // Si vous obtenez un tableau/une liste vide, renvoyez un tableau/une liste vide.
 
 	// Convert number to reversed array of digits	
-       //
+       //Étant donné un nombre aléatoire non négatif, vous devez renvoyer les chiffres de ce nombre dans un tableau dans l'ordre inverse.
        //
 
 
 // Objects
 
 	// Make a function that does arithmetic!
-       //
-       //
+       //Étant donné deux nombres et un opérateur arithmétique (son nom, sous forme de chaîne), 
+       //renvoyez le résultat des deux nombres sur lesquels cet opérateur est utilisé.
+       //a et b seront tous deux des entiers positifs, et aseront toujours le premier nombre de l'opération, et btoujours le deuxième.
+       //Les quatre opérateurs sont « ajouter », « soustraire », « diviser », « multiplier ».
+
+
 
 	// Regular Ball Super Ball	
-       //
-       //
+       //Créez une classe Ball. Les objets Ball doivent accepter un argument pour « type de balle » lors de leur instanciation.
+       //Si aucun argument n'est donné, les objets ball doivent s'instancier avec un « type ball » de « normal ».
+
+
 
 	// Make them bark!	
-       //
-       //
+       //Vous avez été embauché par un éleveur de chiens pour écrire un programme permettant de conserver une trace de ses chiens.
+       //voir lien
 
 	// Add property to every object in array	
-       //
-       //
+       //Votre tâche consiste à ajouter une nouvelle propriété usersAnswerà chaque objet du tableau questions.
+       // La valeur de usersAnswerdoit être définie sur null. La solution devrait fonctionner pour un tableau de n'importe quelle longueur.
 
 	// FIXME: Get Full Name
-       //
-       //
+       //Le code fourni est censé renvoyer le nom complet d'une personne étant donné ses noms firstet lastprénoms.Mais cela ne fonctionne pas correctement.
+       //Rq: Le prénom et/ou le nom ne sont jamais nuls, mais peuvent être vides.Tâche:Corrigez le bug pour que nous puissions tous rentrer chez nous plus tôt.
 
 
 // Basic Language Features
 
 	// Grasshopper - Summation	
-       //
-       //
+       //Écrivez un programme qui trouve la somme de chaque nombre de 1 à num. Le nombre sera toujours un entier positif supérieur à 0.
+       //Votre fonction n'a besoin que de renvoyer le résultat, ce qui est indiqué entre parenthèses dans l'exemple ci-dessous est la 
+       //façon dont vous obtenez ce résultat et cela n'en fait pas partie, voir les exemples de tests.
 
 	// Jenny's secret message	
-       //
-       //
+       //Jenny a écrit une fonction qui renvoie un message d'accueil à un utilisateur. 
+       // Cependant, elle est amoureuse de Johnny et aimerait le saluer d'une manière légèrement différente. 
+       //Elle a ajouté un cas particulier à sa fonction, mais elle a fait une erreur.
 
 	// Function 1 - hello world	
-       //
+       //Créez une fonction simple appelée greetqui renvoie le plus célèbre « hello world ! ».
        //
 
 	// Count the Monkeys!	
-       //
-       //
+       //Vous emmenez votre fils dans la forêt pour voir les singes. Vous savez qu'il y en a un certain nombre (n), 
+       //mais votre fils est trop jeune pour en apprécier le nombre complet, il doit commencer à les compter à partir de 1.
+       //En tant que bon parent, vous vous asseyez et comptez avec lui.
+       // Étant donné le nombre (n), remplissez un tableau avec tous les nombres jusqu'à et y compris ce nombre, mais en excluant zéro.
+
 
 	// Are You Playing Banjo?	
        //
